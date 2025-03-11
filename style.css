@@ -1,0 +1,10 @@
+.elevator-buttons-grid {
+    /* grid 2 columns 5 rows */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    width: 50px;
+    margin:20px 10px;
+
+}
